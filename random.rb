@@ -11,10 +11,11 @@ puts "max："
 max_value = gets.chomp.to_i
 
 #output
-if min > max
+if min_value > max_value
     puts "error!"
   else
-    random_number = rand(min..max)
+    random_number = rand(min_value..max_value)
     puts "random number: #{random_number}"
 end
+
 
