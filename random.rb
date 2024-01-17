@@ -16,3 +16,5 @@ if min > max
   else
     random_number = rand(min..max)
     puts "random number: #{random_number}"
+end
+
